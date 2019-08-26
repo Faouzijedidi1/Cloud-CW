@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="AzureWebJobsDashboard-Web.config Connection String" description="AzureWebJobsDashboard Connection String used in web.config by the application to access the database." defaultValue="DefaultEndpointsProtocol=https;AccountName=jedidistorage;AccountKey=tvrpR2o+V6SDP8C2fnepYAMyXjuPVq7GOo+H7+WiPhU9pe0xJUqTgq0NHG7Gqm9zuYS+2OiOsIHhKTCWbKEVyQ==;EndpointSuffix=core.windows.net" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Faouz\\documents\\visual\ studio\ 2015\\Projects\\MusicApp\\MusicApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AzureWebJobsDashboard']/@connectionString" />
+  </parameter>
+  <parameter name="AzureWebJobsStorage-Web.config Connection String" description="AzureWebJobsStorage Connection String used in web.config by the application to access the database." defaultValue="DefaultEndpointsProtocol=https;AccountName=jedidistorage;AccountKey=XEn0woPNFu5OBnwKWCxZ6ZHDFUjzrtVj+M19kJc8LcvQPRQ1YKAlkp8yDA/YwsRpsZXfjFtDytUnHos0gUEaMw==;EndpointSuffix=core.windows.net" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Faouz\\documents\\visual\ studio\ 2015\\Projects\\MusicApp\\MusicApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AzureWebJobsStorage']/@connectionString" />
+  </parameter>
+</parameters>
